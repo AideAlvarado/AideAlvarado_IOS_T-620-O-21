@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ClockInViewController">
+            <connections>
+                <outlet property="clockInAction" destination="BT8-Bw-T94" id="c1i-75-aIV"/>
+                <outlet property="clockInBTN" destination="BT8-Bw-T94" id="teg-gN-aWM"/>
+                <outlet property="clockOutBTN" destination="gus-i8-3m4" id="cYl-vy-7aU"/>
+                <outlet property="displayNameLBL" destination="I4z-CJ-qz2" id="Vn1-nl-V1x"/>
+                <outlet property="fichaPersonaStack" destination="gXr-YN-ENB" id="c0o-oO-xsu"/>
+                <outlet property="horaEntradaLBL" destination="mVb-oT-Ivu" id="7hb-QI-v3q"/>
+                <outlet property="horaSalidaVal" destination="C5c-dX-Akg" id="DTD-fS-DaS"/>
+                <outlet property="imageAvatar" destination="vgu-59-O14" id="80B-L7-DGb"/>
+                <outlet property="logoutBTN" destination="FMQ-lb-kMi" id="x9Z-U3-QIQ"/>
+                <outlet property="mainStack" destination="ctJ-Bn-W5X" id="otp-BU-TET"/>
+                <outlet property="progressBar" destination="mmE-Ld-p1m" id="3St-Vr-WEB"/>
+                <outlet property="showLogoutAction" destination="FMQ-lb-kMi" id="EY2-iW-MPJ"/>
+                <outlet property="stackHoraEntrada" destination="4Ld-Qy-YLP" id="gX5-EY-SqE"/>
+                <outlet property="stackHoraSalida" destination="ToF-X6-q1p" id="u2Q-ee-D4A"/>
+                <outlet property="tableView" destination="slM-pc-6eX" id="bfF-VX-aEe"/>
+                <outlet property="taskBTN" destination="jTP-eb-A2U" id="UwD-PL-Qgo"/>
+                <outlet property="textoHoraEntradaLBL" destination="4IV-SK-aMS" id="8cl-0Y-l0u"/>
+                <outlet property="textoHoraSalidaLBL" destination="QI5-bM-2dT" id="Vmu-Ex-CGy"/>
+                <outlet property="userBTN" destination="ZDr-JU-zju" id="Gex-Xh-ab7"/>
+                <outlet property="view" destination="iN0-l3-epB" id="0KK-4V-vEI"/>
+                <outlet property="weatherIcon" destination="zSu-vR-2aa" id="Dfc-IY-uXW"/>
+                <outlet property="weatherImage" destination="gXr-YN-ENB" id="ocM-jb-ffz"/>
+                <outlet property="weatherLabel" destination="C05-5p-jGL" id="tNb-FQ-PDi"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fts-cr-NGR">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DmL-Nh-J22">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <items>
+                                <navigationItem title="Clock In" id="QpD-AQ-cXX">
+                                    <barButtonItem key="leftBarButtonItem" title="Logout" image="power.circle.fill" catalog="system" id="FMQ-lb-kMi">
+                                        <connections>
+                                            <action selector="logoutAction:" destination="-1" id="1xE-Er-UF3"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <rightBarButtonItems>
+                                        <barButtonItem image="checklist" catalog="system" id="jTP-eb-A2U" userLabel="Tasks">
+                                            <connections>
+                                                <action selector="showTasksActions:" destination="-1" id="uAt-pC-exl"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem image="person.2.fill" catalog="system" id="ZDr-JU-zju" userLabel="Users">
+                                            <connections>
+                                                <action selector="showUsersAction:" destination="-1" id="wy1-na-vka"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </rightBarButtonItems>
+                                </navigationItem>
+                            </items>
+                        </navigationBar>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ctJ-Bn-W5X" userLabel="Main Stack">
+                            <rect key="frame" x="0.0" y="44" width="414" height="774"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gXr-YN-ENB" userLabel="ficha Persona">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="197"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar-02-512" translatesAutoresizingMaskIntoConstraints="NO" id="vgu-59-O14">
+                                            <rect key="frame" x="8" y="8" width="100" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="huc-zR-9VA"/>
+                                                <constraint firstAttribute="width" constant="100" id="mJW-nm-o3B"/>
+                                            </constraints>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="llL-ps-S94">
+                                            <rect key="frame" x="118" y="8" width="288" height="181"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Display Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4z-CJ-qz2">
+                                                    <rect key="frame" x="0.0" y="0.0" width="288" height="39"/>
+                                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4Ld-Qy-YLP" userLabel="stack hora entrada">
+                                                    <rect key="frame" x="0.0" y="49" width="288" height="34"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Hora de entrada" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4IV-SK-aMS">
+                                                            <rect key="frame" x="0.0" y="0.0" width="191.5" height="34"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVb-oT-Ivu">
+                                                            <rect key="frame" x="201.5" y="0.0" width="42.5" height="34"/>
+                                                            <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="14"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="contactAdd" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BT8-Bw-T94" userLabel="clockIn button">
+                                                            <rect key="frame" x="254" y="0.0" width="34" height="34"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="34" id="Tzu-iL-hLh"/>
+                                                                <constraint firstAttribute="height" constant="34" id="wCv-nW-Gxe"/>
+                                                            </constraints>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <connections>
+                                                                <action selector="clockInActionClick:" destination="-1" eventType="touchUpInside" id="yXY-Hx-svi"/>
+                                                            </connections>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ToF-X6-q1p" userLabel="stack hora salida">
+                                                    <rect key="frame" x="0.0" y="93" width="288" height="34"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Hora de salida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QI5-bM-2dT">
+                                                            <rect key="frame" x="0.0" y="0.0" width="191.5" height="34"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5c-dX-Akg">
+                                                            <rect key="frame" x="201.5" y="0.0" width="42.5" height="34"/>
+                                                            <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="14"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gus-i8-3m4" userLabel="clockOut button">
+                                                            <rect key="frame" x="254" y="0.0" width="34" height="34"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="34" id="LLT-P1-SvM"/>
+                                                                <constraint firstAttribute="height" constant="34" id="QKO-hY-rpa"/>
+                                                            </constraints>
+                                                            <color key="tintColor" systemColor="systemRedColor"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal">
+                                                                <imageReference key="image" image="clear" catalog="system" symbolScale="large"/>
+                                                            </state>
+                                                            <connections>
+                                                                <action selector="clockOutAction:" destination="-1" eventType="touchUpInside" id="EE4-ok-kwP"/>
+                                                            </connections>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uV9-vW-K5a">
+                                                    <rect key="frame" x="0.0" y="137" width="288" height="30"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zSu-vR-2aa">
+                                                            <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="30" id="863-aB-B2I"/>
+                                                                <constraint firstAttribute="width" constant="30" id="I5b-z5-Zxk"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C05-5p-jGL">
+                                                            <rect key="frame" x="30" y="0.0" width="258" height="30"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mmE-Ld-p1m">
+                                                    <rect key="frame" x="0.0" y="177" width="288" height="4"/>
+                                                </progressView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" name="AccentColor"/>
+                                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                </stackView>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="slM-pc-6eX">
+                                    <rect key="frame" x="0.0" y="374" width="414" height="400"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="400" id="Xx0-wb-mrl"/>
+                                    </constraints>
+                                    <color key="sectionIndexBackgroundColor" systemColor="systemCyanColor"/>
+                                </tableView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fts-cr-NGR" secondAttribute="trailing" id="5dv-1f-1G8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="fts-cr-NGR" secondAttribute="bottom" id="Ere-CW-R1t"/>
+                <constraint firstItem="fts-cr-NGR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="QET-aK-XJD"/>
+                <constraint firstItem="fts-cr-NGR" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="osx-cO-0zf"/>
+            </constraints>
+            <point key="canvasLocation" x="31.884057971014496" y="132.58928571428572"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatar-02-512" width="512" height="512"/>
+        <image name="checklist" catalog="system" width="128" height="105"/>
+        <image name="clear" catalog="system" width="128" height="114"/>
+        <image name="person.2.fill" catalog="system" width="128" height="80"/>
+        <image name="power.circle.fill" catalog="system" width="128" height="121"/>
+        <namedColor name="AccentColor">
+            <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

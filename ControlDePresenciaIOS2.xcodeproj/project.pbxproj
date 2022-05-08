@@ -1,0 +1,1327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		468718E128284829000A5F90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 468718E028284829000A5F90 /* GoogleService-Info.plist */; };
+		F33FCC822825C34300489056 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC812825C34300489056 /* FirebaseAuth */; };
+		F33FCC842825C34300489056 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC832825C34300489056 /* FirebaseAuthCombine-Community */; };
+		F33FCC862825C34400489056 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC852825C34300489056 /* FirebaseDatabase */; };
+		F33FCC882825C34400489056 /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC872825C34400489056 /* FirebaseDatabaseSwift-Beta */; };
+		F33FCC8A2825C34400489056 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC892825C34400489056 /* FirebaseDynamicLinks */; };
+		F33FCC8C2825C34400489056 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC8B2825C34400489056 /* FirebaseFirestore */; };
+		F33FCC8E2825C34400489056 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC8D2825C34400489056 /* FirebaseFirestoreCombine-Community */; };
+		F33FCC902825C34400489056 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC8F2825C34400489056 /* FirebaseFirestoreSwift-Beta */; };
+		F33FCC922825C34400489056 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC912825C34400489056 /* FirebaseFunctions */; };
+		F33FCC942825C34400489056 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC932825C34400489056 /* FirebaseFunctionsCombine-Community */; };
+		F33FCC962825C34400489056 /* FirebaseFunctionsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC952825C34400489056 /* FirebaseFunctionsSwift-Beta */; };
+		F33FCC982825C34400489056 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC972825C34400489056 /* FirebaseRemoteConfig */; };
+		F33FCC9A2825C34400489056 /* FirebaseRemoteConfigSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC992825C34400489056 /* FirebaseRemoteConfigSwift-Beta */; };
+		F33FCC9C2825C34400489056 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC9B2825C34400489056 /* FirebaseStorage */; };
+		F33FCC9E2825C34400489056 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC9D2825C34400489056 /* FirebaseStorageCombine-Community */; };
+		F33FCCA02825C34400489056 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC9F2825C34400489056 /* FirebaseStorageSwift-Beta */; };
+		F35F806A281F3CF000371A0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F8069281F3CF000371A0D /* AppDelegate.swift */; };
+		F35F8073281F3CF100371A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35F8072281F3CF100371A0D /* Assets.xcassets */; };
+		F35F8076281F3CF100371A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35F8074281F3CF100371A0D /* LaunchScreen.storyboard */; };
+		F35F8081281F3CF100371A0D /* ControlDePresenciaIOS2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F8080281F3CF100371A0D /* ControlDePresenciaIOS2Tests.swift */; };
+		F35F808B281F3CF200371A0D /* ControlDePresenciaIOS2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F808A281F3CF200371A0D /* ControlDePresenciaIOS2UITests.swift */; };
+		F35F808D281F3CF200371A0D /* ControlDePresenciaIOS2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F808C281F3CF200371A0D /* ControlDePresenciaIOS2UITestsLaunchTests.swift */; };
+		F35F809B281F3D5A00371A0D /* AppCoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F809A281F3D5A00371A0D /* AppCoreCoordinator.swift */; };
+		F35F809E281F3DE300371A0D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F35F809D281F3DE300371A0D /* Lottie */; };
+		F35F80B8281F3F8E00371A0D /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = F35F80B7281F3F8E00371A0D /* PKHUD */; };
+		F35F80BB281FA59100371A0D /* BaseVIPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80BA281FA59100371A0D /* BaseVIPER.swift */; };
+		F35F80BE281FA64300371A0D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80BD281FA64300371A0D /* NetworkService.swift */; };
+		F35F80C0281FA67B00371A0D /* NetworKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80BF281FA67B00371A0D /* NetworKError.swift */; };
+		F35F80C4281FA75900371A0D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80C3281FA75900371A0D /* Utils.swift */; };
+		F35F80C6281FA79900371A0D /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80C5281FA79800371A0D /* K.swift */; };
+		F35F80C8281FA7D400371A0D /* TimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80C7281FA7D400371A0D /* TimeUtils.swift */; };
+		F35F80CB281FA84100371A0D /* TimeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80CA281FA84100371A0D /* TimeRecord.swift */; };
+		F35F80D7281FA9FE00371A0D /* SplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35F80D0281FA9FE00371A0D /* SplashScreenViewController.xib */; };
+		F35F80D8281FA9FE00371A0D /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80D1281FA9FE00371A0D /* SplashScreenViewController.swift */; };
+		F35F80D9281FA9FE00371A0D /* SplashScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80D2281FA9FE00371A0D /* SplashScreenRouter.swift */; };
+		F35F80DA281FA9FE00371A0D /* SplashScreenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80D3281FA9FE00371A0D /* SplashScreenProvider.swift */; };
+		F35F80DB281FA9FE00371A0D /* SplashScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80D4281FA9FE00371A0D /* SplashScreenCoordinator.swift */; };
+		F35F80DC281FA9FE00371A0D /* SplashScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80D5281FA9FE00371A0D /* SplashScreenPresenter.swift */; };
+		F35F80DD281FA9FE00371A0D /* SplashScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80D6281FA9FE00371A0D /* SplashScreenInteractor.swift */; };
+		F35F80E6281FB24E00371A0D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35F80DF281FB24E00371A0D /* LoginViewController.xib */; };
+		F35F80E7281FB24E00371A0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80E0281FB24E00371A0D /* LoginViewController.swift */; };
+		F35F80E8281FB24E00371A0D /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80E1281FB24E00371A0D /* LoginRouter.swift */; };
+		F35F80E9281FB24E00371A0D /* LoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80E2281FB24E00371A0D /* LoginProvider.swift */; };
+		F35F80EA281FB24E00371A0D /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80E3281FB24E00371A0D /* LoginCoordinator.swift */; };
+		F35F80EB281FB24E00371A0D /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80E4281FB24E00371A0D /* LoginPresenter.swift */; };
+		F35F80EC281FB24E00371A0D /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80E5281FB24E00371A0D /* LoginInteractor.swift */; };
+		F35F80F5281FC44500371A0D /* ClockInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35F80EE281FC44500371A0D /* ClockInViewController.xib */; };
+		F35F80F6281FC44500371A0D /* ClockInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80EF281FC44500371A0D /* ClockInViewController.swift */; };
+		F35F80F7281FC44500371A0D /* ClockInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80F0281FC44500371A0D /* ClockInRouter.swift */; };
+		F35F80F8281FC44500371A0D /* ClockInProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80F1281FC44500371A0D /* ClockInProvider.swift */; };
+		F35F80F9281FC44500371A0D /* ClockInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80F2281FC44500371A0D /* ClockInCoordinator.swift */; };
+		F35F80FA281FC44500371A0D /* ClockInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80F3281FC44500371A0D /* ClockInPresenter.swift */; };
+		F35F80FB281FC44500371A0D /* ClockInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80F4281FC44500371A0D /* ClockInInteractor.swift */; };
+		F35F80FF281FC48700371A0D /* TimeRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F80FD281FC48700371A0D /* TimeRecordCell.swift */; };
+		F35F8100281FC48700371A0D /* TimeRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35F80FE281FC48700371A0D /* TimeRecordCell.xib */; };
+		F35F8109282015E000371A0D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35F8102282015E000371A0D /* RegisterViewController.xib */; };
+		F35F810A282015E000371A0D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F8103282015E000371A0D /* RegisterViewController.swift */; };
+		F35F810B282015E000371A0D /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F8104282015E000371A0D /* RegisterRouter.swift */; };
+		F35F810C282015E000371A0D /* RegisterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F8105282015E000371A0D /* RegisterProvider.swift */; };
+		F35F810D282015E000371A0D /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F8106282015E000371A0D /* RegisterCoordinator.swift */; };
+		F35F810E282015E000371A0D /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F8107282015E000371A0D /* RegisterPresenter.swift */; };
+		F35F810F282015E000371A0D /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F8108282015E000371A0D /* RegisterInteractor.swift */; };
+		F35F81112820291C00371A0D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F81102820291C00371A0D /* Extensions.swift */; };
+		F35F811428202AFC00371A0D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F35F811328202AFC00371A0D /* Kingfisher */; };
+		F35F811628202F0C00371A0D /* UserRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F811528202F0C00371A0D /* UserRecord.swift */; };
+		F37693082823F65F00711DD2 /* AprobarCambioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F37693012823F65F00711DD2 /* AprobarCambioViewController.xib */; };
+		F37693092823F65F00711DD2 /* AprobarCambioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37693022823F65F00711DD2 /* AprobarCambioViewController.swift */; };
+		F376930A2823F65F00711DD2 /* AprobarCambioRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37693032823F65F00711DD2 /* AprobarCambioRouter.swift */; };
+		F376930B2823F65F00711DD2 /* AprobarCambioProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37693042823F65F00711DD2 /* AprobarCambioProvider.swift */; };
+		F376930C2823F65F00711DD2 /* AprobarCambioCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37693052823F65F00711DD2 /* AprobarCambioCoordinator.swift */; };
+		F376930D2823F65F00711DD2 /* AprobarCambioPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37693062823F65F00711DD2 /* AprobarCambioPresenter.swift */; };
+		F376930E2823F65F00711DD2 /* AprobarCambioInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37693072823F65F00711DD2 /* AprobarCambioInteractor.swift */; };
+		F376931028240BED00711DD2 /* CameraProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376930F28240BED00711DD2 /* CameraProvider.swift */; };
+		F3769319282577AD00711DD2 /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3769312282577AD00711DD2 /* WeatherViewController.xib */; };
+		F376931A282577AD00711DD2 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3769313282577AD00711DD2 /* WeatherViewController.swift */; };
+		F376931B282577AD00711DD2 /* WeatherRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3769314282577AD00711DD2 /* WeatherRouter.swift */; };
+		F376931C282577AD00711DD2 /* WeatherProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3769315282577AD00711DD2 /* WeatherProvider.swift */; };
+		F376931D282577AD00711DD2 /* WeatherCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3769316282577AD00711DD2 /* WeatherCoordinator.swift */; };
+		F376931E282577AD00711DD2 /* WeatherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3769317282577AD00711DD2 /* WeatherPresenter.swift */; };
+		F376931F282577AD00711DD2 /* WeatherInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3769318282577AD00711DD2 /* WeatherInteractor.swift */; };
+		F376932128257C1B00711DD2 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F376932028257C1B00711DD2 /* Welcome.swift */; };
+		F37693242825949800711DD2 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37693232825949800711DD2 /* Styles.swift */; };
+		F3F5E2442822A14100D7D3B4 /* ListUsersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F5E23D2822A14100D7D3B4 /* ListUsersViewController.xib */; };
+		F3F5E2452822A14100D7D3B4 /* ListUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E23E2822A14100D7D3B4 /* ListUsersViewController.swift */; };
+		F3F5E2462822A14100D7D3B4 /* ListUsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E23F2822A14100D7D3B4 /* ListUsersRouter.swift */; };
+		F3F5E2472822A14100D7D3B4 /* ListUsersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E2402822A14100D7D3B4 /* ListUsersProvider.swift */; };
+		F3F5E2482822A14100D7D3B4 /* ListUsersCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E2412822A14100D7D3B4 /* ListUsersCoordinator.swift */; };
+		F3F5E2492822A14100D7D3B4 /* ListUsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E2422822A14100D7D3B4 /* ListUsersPresenter.swift */; };
+		F3F5E24A2822A14100D7D3B4 /* ListUsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E2432822A14100D7D3B4 /* ListUsersInteractor.swift */; };
+		F3F5E2532822A16300D7D3B4 /* ListTasksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F5E24C2822A16300D7D3B4 /* ListTasksViewController.xib */; };
+		F3F5E2542822A16300D7D3B4 /* ListTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E24D2822A16300D7D3B4 /* ListTasksViewController.swift */; };
+		F3F5E2552822A16300D7D3B4 /* ListTasksRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E24E2822A16300D7D3B4 /* ListTasksRouter.swift */; };
+		F3F5E2562822A16300D7D3B4 /* ListTasksProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E24F2822A16300D7D3B4 /* ListTasksProvider.swift */; };
+		F3F5E2572822A16300D7D3B4 /* ListTasksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E2502822A16300D7D3B4 /* ListTasksCoordinator.swift */; };
+		F3F5E2582822A16300D7D3B4 /* ListTasksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E2512822A16300D7D3B4 /* ListTasksPresenter.swift */; };
+		F3F5E2592822A16300D7D3B4 /* ListTasksInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E2522822A16300D7D3B4 /* ListTasksInteractor.swift */; };
+		F3F5E25D2822A25D00D7D3B4 /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E25B2822A25D00D7D3B4 /* UserViewCell.swift */; };
+		F3F5E25E2822A25D00D7D3B4 /* UserViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F5E25C2822A25D00D7D3B4 /* UserViewCell.xib */; };
+		F3F5E2622822F50D00D7D3B4 /* TaskViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E2602822F50C00D7D3B4 /* TaskViewCell.swift */; };
+		F3F5E2632822F50D00D7D3B4 /* TaskViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F5E2612822F50C00D7D3B4 /* TaskViewCell.xib */; };
+		F3F5E2652822F6B800D7D3B4 /* UpdateTimeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5E2642822F6B800D7D3B4 /* UpdateTimeRecord.swift */; };
+		F3FDAE742820617E007A41AE /* EditTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3FDAE6D2820617E007A41AE /* EditTimeViewController.xib */; };
+		F3FDAE752820617E007A41AE /* EditTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE6E2820617E007A41AE /* EditTimeViewController.swift */; };
+		F3FDAE762820617E007A41AE /* EditTimeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE6F2820617E007A41AE /* EditTimeRouter.swift */; };
+		F3FDAE772820617E007A41AE /* EditTimeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE702820617E007A41AE /* EditTimeProvider.swift */; };
+		F3FDAE782820617E007A41AE /* EditTimeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE712820617E007A41AE /* EditTimeCoordinator.swift */; };
+		F3FDAE792820617E007A41AE /* EditTimePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE722820617E007A41AE /* EditTimePresenter.swift */; };
+		F3FDAE7A2820617E007A41AE /* EditTimeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE732820617E007A41AE /* EditTimeInteractor.swift */; };
+		F3FDAE832820795B007A41AE /* EditUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3FDAE7C2820795B007A41AE /* EditUserViewController.xib */; };
+		F3FDAE842820795B007A41AE /* EditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE7D2820795B007A41AE /* EditUserViewController.swift */; };
+		F3FDAE852820795B007A41AE /* EditUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE7E2820795B007A41AE /* EditUserRouter.swift */; };
+		F3FDAE862820795B007A41AE /* EditUserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE7F2820795B007A41AE /* EditUserProvider.swift */; };
+		F3FDAE872820795B007A41AE /* EditUserCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE802820795B007A41AE /* EditUserCoordinator.swift */; };
+		F3FDAE882820795B007A41AE /* EditUserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE812820795B007A41AE /* EditUserPresenter.swift */; };
+		F3FDAE892820795B007A41AE /* EditUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDAE822820795B007A41AE /* EditUserInteractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F35F807D281F3CF100371A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35F805E281F3CF000371A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35F8065281F3CF000371A0D;
+			remoteInfo = ControlDePresenciaIOS2;
+		};
+		F35F8087281F3CF200371A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35F805E281F3CF000371A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35F8065281F3CF000371A0D;
+			remoteInfo = ControlDePresenciaIOS2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		468718E028284829000A5F90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F35F8066281F3CF000371A0D /* ControlDePresenciaPFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlDePresenciaPFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35F8069281F3CF000371A0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F35F8072281F3CF100371A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F35F8075281F3CF100371A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F35F8077281F3CF100371A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35F807C281F3CF100371A0D /* ControlDePresenciaPFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlDePresenciaPFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35F8080281F3CF100371A0D /* ControlDePresenciaIOS2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlDePresenciaIOS2Tests.swift; sourceTree = "<group>"; };
+		F35F8086281F3CF200371A0D /* ControlDePresenciaPFMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlDePresenciaPFMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35F808A281F3CF200371A0D /* ControlDePresenciaIOS2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlDePresenciaIOS2UITests.swift; sourceTree = "<group>"; };
+		F35F808C281F3CF200371A0D /* ControlDePresenciaIOS2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlDePresenciaIOS2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F35F809A281F3D5A00371A0D /* AppCoreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoreCoordinator.swift; sourceTree = "<group>"; };
+		F35F80BA281FA59100371A0D /* BaseVIPER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVIPER.swift; sourceTree = "<group>"; };
+		F35F80BD281FA64300371A0D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F35F80BF281FA67B00371A0D /* NetworKError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworKError.swift; sourceTree = "<group>"; };
+		F35F80C3281FA75900371A0D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F35F80C5281FA79800371A0D /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		F35F80C7281FA7D400371A0D /* TimeUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeUtils.swift; sourceTree = "<group>"; };
+		F35F80CA281FA84100371A0D /* TimeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRecord.swift; sourceTree = "<group>"; };
+		F35F80D0281FA9FE00371A0D /* SplashScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenViewController.xib; sourceTree = "<group>"; };
+		F35F80D1281FA9FE00371A0D /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		F35F80D2281FA9FE00371A0D /* SplashScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenRouter.swift; sourceTree = "<group>"; };
+		F35F80D3281FA9FE00371A0D /* SplashScreenProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenProvider.swift; sourceTree = "<group>"; };
+		F35F80D4281FA9FE00371A0D /* SplashScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenCoordinator.swift; sourceTree = "<group>"; };
+		F35F80D5281FA9FE00371A0D /* SplashScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenPresenter.swift; sourceTree = "<group>"; };
+		F35F80D6281FA9FE00371A0D /* SplashScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenInteractor.swift; sourceTree = "<group>"; };
+		F35F80DF281FB24E00371A0D /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F35F80E0281FB24E00371A0D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F35F80E1281FB24E00371A0D /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		F35F80E2281FB24E00371A0D /* LoginProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProvider.swift; sourceTree = "<group>"; };
+		F35F80E3281FB24E00371A0D /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		F35F80E4281FB24E00371A0D /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		F35F80E5281FB24E00371A0D /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		F35F80EE281FC44500371A0D /* ClockInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClockInViewController.xib; sourceTree = "<group>"; };
+		F35F80EF281FC44500371A0D /* ClockInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockInViewController.swift; sourceTree = "<group>"; };
+		F35F80F0281FC44500371A0D /* ClockInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockInRouter.swift; sourceTree = "<group>"; };
+		F35F80F1281FC44500371A0D /* ClockInProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockInProvider.swift; sourceTree = "<group>"; };
+		F35F80F2281FC44500371A0D /* ClockInCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockInCoordinator.swift; sourceTree = "<group>"; };
+		F35F80F3281FC44500371A0D /* ClockInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockInPresenter.swift; sourceTree = "<group>"; };
+		F35F80F4281FC44500371A0D /* ClockInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockInInteractor.swift; sourceTree = "<group>"; };
+		F35F80FD281FC48700371A0D /* TimeRecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRecordCell.swift; sourceTree = "<group>"; };
+		F35F80FE281FC48700371A0D /* TimeRecordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeRecordCell.xib; sourceTree = "<group>"; };
+		F35F8102282015E000371A0D /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		F35F8103282015E000371A0D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F35F8104282015E000371A0D /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		F35F8105282015E000371A0D /* RegisterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterProvider.swift; sourceTree = "<group>"; };
+		F35F8106282015E000371A0D /* RegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordinator.swift; sourceTree = "<group>"; };
+		F35F8107282015E000371A0D /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		F35F8108282015E000371A0D /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		F35F81102820291C00371A0D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F35F811528202F0C00371A0D /* UserRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRecord.swift; sourceTree = "<group>"; };
+		F37693012823F65F00711DD2 /* AprobarCambioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AprobarCambioViewController.xib; sourceTree = "<group>"; };
+		F37693022823F65F00711DD2 /* AprobarCambioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprobarCambioViewController.swift; sourceTree = "<group>"; };
+		F37693032823F65F00711DD2 /* AprobarCambioRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprobarCambioRouter.swift; sourceTree = "<group>"; };
+		F37693042823F65F00711DD2 /* AprobarCambioProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprobarCambioProvider.swift; sourceTree = "<group>"; };
+		F37693052823F65F00711DD2 /* AprobarCambioCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprobarCambioCoordinator.swift; sourceTree = "<group>"; };
+		F37693062823F65F00711DD2 /* AprobarCambioPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprobarCambioPresenter.swift; sourceTree = "<group>"; };
+		F37693072823F65F00711DD2 /* AprobarCambioInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprobarCambioInteractor.swift; sourceTree = "<group>"; };
+		F376930F28240BED00711DD2 /* CameraProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraProvider.swift; sourceTree = "<group>"; };
+		F3769312282577AD00711DD2 /* WeatherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
+		F3769313282577AD00711DD2 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		F3769314282577AD00711DD2 /* WeatherRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRouter.swift; sourceTree = "<group>"; };
+		F3769315282577AD00711DD2 /* WeatherProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherProvider.swift; sourceTree = "<group>"; };
+		F3769316282577AD00711DD2 /* WeatherCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCoordinator.swift; sourceTree = "<group>"; };
+		F3769317282577AD00711DD2 /* WeatherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPresenter.swift; sourceTree = "<group>"; };
+		F3769318282577AD00711DD2 /* WeatherInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInteractor.swift; sourceTree = "<group>"; };
+		F376932028257C1B00711DD2 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		F37693232825949800711DD2 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		F3F5E23D2822A14100D7D3B4 /* ListUsersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListUsersViewController.xib; sourceTree = "<group>"; };
+		F3F5E23E2822A14100D7D3B4 /* ListUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersViewController.swift; sourceTree = "<group>"; };
+		F3F5E23F2822A14100D7D3B4 /* ListUsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersRouter.swift; sourceTree = "<group>"; };
+		F3F5E2402822A14100D7D3B4 /* ListUsersProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersProvider.swift; sourceTree = "<group>"; };
+		F3F5E2412822A14100D7D3B4 /* ListUsersCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersCoordinator.swift; sourceTree = "<group>"; };
+		F3F5E2422822A14100D7D3B4 /* ListUsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersPresenter.swift; sourceTree = "<group>"; };
+		F3F5E2432822A14100D7D3B4 /* ListUsersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersInteractor.swift; sourceTree = "<group>"; };
+		F3F5E24C2822A16300D7D3B4 /* ListTasksViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTasksViewController.xib; sourceTree = "<group>"; };
+		F3F5E24D2822A16300D7D3B4 /* ListTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTasksViewController.swift; sourceTree = "<group>"; };
+		F3F5E24E2822A16300D7D3B4 /* ListTasksRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTasksRouter.swift; sourceTree = "<group>"; };
+		F3F5E24F2822A16300D7D3B4 /* ListTasksProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTasksProvider.swift; sourceTree = "<group>"; };
+		F3F5E2502822A16300D7D3B4 /* ListTasksCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTasksCoordinator.swift; sourceTree = "<group>"; };
+		F3F5E2512822A16300D7D3B4 /* ListTasksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTasksPresenter.swift; sourceTree = "<group>"; };
+		F3F5E2522822A16300D7D3B4 /* ListTasksInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTasksInteractor.swift; sourceTree = "<group>"; };
+		F3F5E25B2822A25D00D7D3B4 /* UserViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewCell.swift; sourceTree = "<group>"; };
+		F3F5E25C2822A25D00D7D3B4 /* UserViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewCell.xib; sourceTree = "<group>"; };
+		F3F5E2602822F50C00D7D3B4 /* TaskViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewCell.swift; sourceTree = "<group>"; };
+		F3F5E2612822F50C00D7D3B4 /* TaskViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskViewCell.xib; sourceTree = "<group>"; };
+		F3F5E2642822F6B800D7D3B4 /* UpdateTimeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTimeRecord.swift; sourceTree = "<group>"; };
+		F3FDAE6D2820617E007A41AE /* EditTimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditTimeViewController.xib; sourceTree = "<group>"; };
+		F3FDAE6E2820617E007A41AE /* EditTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeViewController.swift; sourceTree = "<group>"; };
+		F3FDAE6F2820617E007A41AE /* EditTimeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeRouter.swift; sourceTree = "<group>"; };
+		F3FDAE702820617E007A41AE /* EditTimeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeProvider.swift; sourceTree = "<group>"; };
+		F3FDAE712820617E007A41AE /* EditTimeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeCoordinator.swift; sourceTree = "<group>"; };
+		F3FDAE722820617E007A41AE /* EditTimePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimePresenter.swift; sourceTree = "<group>"; };
+		F3FDAE732820617E007A41AE /* EditTimeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimeInteractor.swift; sourceTree = "<group>"; };
+		F3FDAE7C2820795B007A41AE /* EditUserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditUserViewController.xib; sourceTree = "<group>"; };
+		F3FDAE7D2820795B007A41AE /* EditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserViewController.swift; sourceTree = "<group>"; };
+		F3FDAE7E2820795B007A41AE /* EditUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserRouter.swift; sourceTree = "<group>"; };
+		F3FDAE7F2820795B007A41AE /* EditUserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserProvider.swift; sourceTree = "<group>"; };
+		F3FDAE802820795B007A41AE /* EditUserCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserCoordinator.swift; sourceTree = "<group>"; };
+		F3FDAE812820795B007A41AE /* EditUserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserPresenter.swift; sourceTree = "<group>"; };
+		F3FDAE822820795B007A41AE /* EditUserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserInteractor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35F8063281F3CF000371A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33FCC862825C34400489056 /* FirebaseDatabase in Frameworks */,
+				F33FCCA02825C34400489056 /* FirebaseStorageSwift-Beta in Frameworks */,
+				F35F811428202AFC00371A0D /* Kingfisher in Frameworks */,
+				F35F809E281F3DE300371A0D /* Lottie in Frameworks */,
+				F33FCC922825C34400489056 /* FirebaseFunctions in Frameworks */,
+				F33FCC8E2825C34400489056 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				F33FCC902825C34400489056 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				F33FCC8A2825C34400489056 /* FirebaseDynamicLinks in Frameworks */,
+				F33FCC9A2825C34400489056 /* FirebaseRemoteConfigSwift-Beta in Frameworks */,
+				F35F80B8281F3F8E00371A0D /* PKHUD in Frameworks */,
+				F33FCC942825C34400489056 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				F33FCC982825C34400489056 /* FirebaseRemoteConfig in Frameworks */,
+				F33FCC8C2825C34400489056 /* FirebaseFirestore in Frameworks */,
+				F33FCC9C2825C34400489056 /* FirebaseStorage in Frameworks */,
+				F33FCC822825C34300489056 /* FirebaseAuth in Frameworks */,
+				F33FCC882825C34400489056 /* FirebaseDatabaseSwift-Beta in Frameworks */,
+				F33FCC842825C34300489056 /* FirebaseAuthCombine-Community in Frameworks */,
+				F33FCC9E2825C34400489056 /* FirebaseStorageCombine-Community in Frameworks */,
+				F33FCC962825C34400489056 /* FirebaseFunctionsSwift-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F8079281F3CF100371A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F8083281F3CF200371A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F35F805D281F3CF000371A0D = {
+			isa = PBXGroup;
+			children = (
+				F35F8068281F3CF000371A0D /* ControlDePresenciaIOS2 */,
+				F35F807F281F3CF100371A0D /* ControlDePresenciaIOS2Tests */,
+				F35F8089281F3CF200371A0D /* ControlDePresenciaIOS2UITests */,
+				F35F8067281F3CF000371A0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F35F8067281F3CF000371A0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35F8066281F3CF000371A0D /* ControlDePresenciaPFM.app */,
+				F35F807C281F3CF100371A0D /* ControlDePresenciaPFMTests.xctest */,
+				F35F8086281F3CF200371A0D /* ControlDePresenciaPFMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35F8068281F3CF000371A0D /* ControlDePresenciaIOS2 */ = {
+			isa = PBXGroup;
+			children = (
+				468718E028284829000A5F90 /* GoogleService-Info.plist */,
+				F37693222825946800711DD2 /* Tema */,
+				F35F80C1281FA6D200371A0D /* Utils+Helpers */,
+				F35F80B9281FA54E00371A0D /* BaseViper */,
+				F35F80BC281FA62B00371A0D /* NetworkService */,
+				F35F80C9281FA7FF00371A0D /* Models */,
+				F35F8099281F3D0600371A0D /* CoreApp */,
+				F35F80CE281FA9CC00371A0D /* Sources */,
+				F35F8072281F3CF100371A0D /* Assets.xcassets */,
+				F35F8074281F3CF100371A0D /* LaunchScreen.storyboard */,
+				F35F8077281F3CF100371A0D /* Info.plist */,
+			);
+			path = ControlDePresenciaIOS2;
+			sourceTree = "<group>";
+		};
+		F35F807F281F3CF100371A0D /* ControlDePresenciaIOS2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F35F8080281F3CF100371A0D /* ControlDePresenciaIOS2Tests.swift */,
+			);
+			path = ControlDePresenciaIOS2Tests;
+			sourceTree = "<group>";
+		};
+		F35F8089281F3CF200371A0D /* ControlDePresenciaIOS2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F35F808A281F3CF200371A0D /* ControlDePresenciaIOS2UITests.swift */,
+				F35F808C281F3CF200371A0D /* ControlDePresenciaIOS2UITestsLaunchTests.swift */,
+			);
+			path = ControlDePresenciaIOS2UITests;
+			sourceTree = "<group>";
+		};
+		F35F8099281F3D0600371A0D /* CoreApp */ = {
+			isa = PBXGroup;
+			children = (
+				F35F8069281F3CF000371A0D /* AppDelegate.swift */,
+				F35F809A281F3D5A00371A0D /* AppCoreCoordinator.swift */,
+			);
+			path = CoreApp;
+			sourceTree = "<group>";
+		};
+		F35F80B9281FA54E00371A0D /* BaseViper */ = {
+			isa = PBXGroup;
+			children = (
+				F35F80BA281FA59100371A0D /* BaseVIPER.swift */,
+			);
+			name = BaseViper;
+			sourceTree = "<group>";
+		};
+		F35F80BC281FA62B00371A0D /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				F35F80BD281FA64300371A0D /* NetworkService.swift */,
+				F35F80BF281FA67B00371A0D /* NetworKError.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		F35F80C1281FA6D200371A0D /* Utils+Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F35F80C2281FA74200371A0D /* Constantes */,
+				F35F80C3281FA75900371A0D /* Utils.swift */,
+				F35F80C7281FA7D400371A0D /* TimeUtils.swift */,
+				F35F81102820291C00371A0D /* Extensions.swift */,
+				F376930F28240BED00711DD2 /* CameraProvider.swift */,
+			);
+			path = "Utils+Helpers";
+			sourceTree = "<group>";
+		};
+		F35F80C2281FA74200371A0D /* Constantes */ = {
+			isa = PBXGroup;
+			children = (
+				F35F80C5281FA79800371A0D /* K.swift */,
+			);
+			path = Constantes;
+			sourceTree = "<group>";
+		};
+		F35F80C9281FA7FF00371A0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F35F80CA281FA84100371A0D /* TimeRecord.swift */,
+				F35F811528202F0C00371A0D /* UserRecord.swift */,
+				F3F5E2642822F6B800D7D3B4 /* UpdateTimeRecord.swift */,
+				F376932028257C1B00711DD2 /* Welcome.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F35F80CE281FA9CC00371A0D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F37693112825779400711DD2 /* WeatherScreen */,
+				F37693002823F63E00711DD2 /* ApproveUpdate */,
+				F3F5E24B2822A14E00D7D3B4 /* ListTasks */,
+				F3F5E23C2822A12D00D7D3B4 /* ListUsers */,
+				F3FDAE7B28207946007A41AE /* EditUser */,
+				F3FDAE6C28206166007A41AE /* EditTimeEntry */,
+				F35F8101282015C700371A0D /* Register */,
+				F35F80ED281FC43300371A0D /* ClockIn */,
+				F35F80DE281FB22600371A0D /* LoginView */,
+				F35F80CF281FA9E700371A0D /* SplashScreen */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F35F80CF281FA9E700371A0D /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F35F80D0281FA9FE00371A0D /* SplashScreenViewController.xib */,
+				F35F80D1281FA9FE00371A0D /* SplashScreenViewController.swift */,
+				F35F80D2281FA9FE00371A0D /* SplashScreenRouter.swift */,
+				F35F80D3281FA9FE00371A0D /* SplashScreenProvider.swift */,
+				F35F80D4281FA9FE00371A0D /* SplashScreenCoordinator.swift */,
+				F35F80D5281FA9FE00371A0D /* SplashScreenPresenter.swift */,
+				F35F80D6281FA9FE00371A0D /* SplashScreenInteractor.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		F35F80DE281FB22600371A0D /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				F35F80DF281FB24E00371A0D /* LoginViewController.xib */,
+				F35F80E0281FB24E00371A0D /* LoginViewController.swift */,
+				F35F80E1281FB24E00371A0D /* LoginRouter.swift */,
+				F35F80E2281FB24E00371A0D /* LoginProvider.swift */,
+				F35F80E3281FB24E00371A0D /* LoginCoordinator.swift */,
+				F35F80E4281FB24E00371A0D /* LoginPresenter.swift */,
+				F35F80E5281FB24E00371A0D /* LoginInteractor.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		F35F80ED281FC43300371A0D /* ClockIn */ = {
+			isa = PBXGroup;
+			children = (
+				F35F80FC281FC47100371A0D /* Cell */,
+				F35F80EE281FC44500371A0D /* ClockInViewController.xib */,
+				F35F80EF281FC44500371A0D /* ClockInViewController.swift */,
+				F35F80F0281FC44500371A0D /* ClockInRouter.swift */,
+				F35F80F1281FC44500371A0D /* ClockInProvider.swift */,
+				F35F80F2281FC44500371A0D /* ClockInCoordinator.swift */,
+				F35F80F3281FC44500371A0D /* ClockInPresenter.swift */,
+				F35F80F4281FC44500371A0D /* ClockInInteractor.swift */,
+			);
+			path = ClockIn;
+			sourceTree = "<group>";
+		};
+		F35F80FC281FC47100371A0D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F35F80FD281FC48700371A0D /* TimeRecordCell.swift */,
+				F35F80FE281FC48700371A0D /* TimeRecordCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F35F8101282015C700371A0D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F35F8102282015E000371A0D /* RegisterViewController.xib */,
+				F35F8103282015E000371A0D /* RegisterViewController.swift */,
+				F35F8104282015E000371A0D /* RegisterRouter.swift */,
+				F35F8105282015E000371A0D /* RegisterProvider.swift */,
+				F35F8106282015E000371A0D /* RegisterCoordinator.swift */,
+				F35F8107282015E000371A0D /* RegisterPresenter.swift */,
+				F35F8108282015E000371A0D /* RegisterInteractor.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		F37693002823F63E00711DD2 /* ApproveUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				F37693012823F65F00711DD2 /* AprobarCambioViewController.xib */,
+				F37693022823F65F00711DD2 /* AprobarCambioViewController.swift */,
+				F37693032823F65F00711DD2 /* AprobarCambioRouter.swift */,
+				F37693042823F65F00711DD2 /* AprobarCambioProvider.swift */,
+				F37693052823F65F00711DD2 /* AprobarCambioCoordinator.swift */,
+				F37693062823F65F00711DD2 /* AprobarCambioPresenter.swift */,
+				F37693072823F65F00711DD2 /* AprobarCambioInteractor.swift */,
+			);
+			path = ApproveUpdate;
+			sourceTree = "<group>";
+		};
+		F37693112825779400711DD2 /* WeatherScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F3769312282577AD00711DD2 /* WeatherViewController.xib */,
+				F3769313282577AD00711DD2 /* WeatherViewController.swift */,
+				F3769314282577AD00711DD2 /* WeatherRouter.swift */,
+				F3769315282577AD00711DD2 /* WeatherProvider.swift */,
+				F3769316282577AD00711DD2 /* WeatherCoordinator.swift */,
+				F3769317282577AD00711DD2 /* WeatherPresenter.swift */,
+				F3769318282577AD00711DD2 /* WeatherInteractor.swift */,
+			);
+			path = WeatherScreen;
+			sourceTree = "<group>";
+		};
+		F37693222825946800711DD2 /* Tema */ = {
+			isa = PBXGroup;
+			children = (
+				F37693232825949800711DD2 /* Styles.swift */,
+			);
+			path = Tema;
+			sourceTree = "<group>";
+		};
+		F3F5E23C2822A12D00D7D3B4 /* ListUsers */ = {
+			isa = PBXGroup;
+			children = (
+				F3F5E25A2822A24400D7D3B4 /* UserCell */,
+				F3F5E23D2822A14100D7D3B4 /* ListUsersViewController.xib */,
+				F3F5E23E2822A14100D7D3B4 /* ListUsersViewController.swift */,
+				F3F5E23F2822A14100D7D3B4 /* ListUsersRouter.swift */,
+				F3F5E2402822A14100D7D3B4 /* ListUsersProvider.swift */,
+				F3F5E2412822A14100D7D3B4 /* ListUsersCoordinator.swift */,
+				F3F5E2422822A14100D7D3B4 /* ListUsersPresenter.swift */,
+				F3F5E2432822A14100D7D3B4 /* ListUsersInteractor.swift */,
+			);
+			path = ListUsers;
+			sourceTree = "<group>";
+		};
+		F3F5E24B2822A14E00D7D3B4 /* ListTasks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F5E25F2822F4ED00D7D3B4 /* Cell */,
+				F3F5E24C2822A16300D7D3B4 /* ListTasksViewController.xib */,
+				F3F5E24D2822A16300D7D3B4 /* ListTasksViewController.swift */,
+				F3F5E24E2822A16300D7D3B4 /* ListTasksRouter.swift */,
+				F3F5E24F2822A16300D7D3B4 /* ListTasksProvider.swift */,
+				F3F5E2502822A16300D7D3B4 /* ListTasksCoordinator.swift */,
+				F3F5E2512822A16300D7D3B4 /* ListTasksPresenter.swift */,
+				F3F5E2522822A16300D7D3B4 /* ListTasksInteractor.swift */,
+			);
+			path = ListTasks;
+			sourceTree = "<group>";
+		};
+		F3F5E25A2822A24400D7D3B4 /* UserCell */ = {
+			isa = PBXGroup;
+			children = (
+				F3F5E25B2822A25D00D7D3B4 /* UserViewCell.swift */,
+				F3F5E25C2822A25D00D7D3B4 /* UserViewCell.xib */,
+			);
+			path = UserCell;
+			sourceTree = "<group>";
+		};
+		F3F5E25F2822F4ED00D7D3B4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F3F5E2602822F50C00D7D3B4 /* TaskViewCell.swift */,
+				F3F5E2612822F50C00D7D3B4 /* TaskViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F3FDAE6C28206166007A41AE /* EditTimeEntry */ = {
+			isa = PBXGroup;
+			children = (
+				F3FDAE6D2820617E007A41AE /* EditTimeViewController.xib */,
+				F3FDAE6E2820617E007A41AE /* EditTimeViewController.swift */,
+				F3FDAE6F2820617E007A41AE /* EditTimeRouter.swift */,
+				F3FDAE702820617E007A41AE /* EditTimeProvider.swift */,
+				F3FDAE712820617E007A41AE /* EditTimeCoordinator.swift */,
+				F3FDAE722820617E007A41AE /* EditTimePresenter.swift */,
+				F3FDAE732820617E007A41AE /* EditTimeInteractor.swift */,
+			);
+			path = EditTimeEntry;
+			sourceTree = "<group>";
+		};
+		F3FDAE7B28207946007A41AE /* EditUser */ = {
+			isa = PBXGroup;
+			children = (
+				F3FDAE7C2820795B007A41AE /* EditUserViewController.xib */,
+				F3FDAE7D2820795B007A41AE /* EditUserViewController.swift */,
+				F3FDAE7E2820795B007A41AE /* EditUserRouter.swift */,
+				F3FDAE7F2820795B007A41AE /* EditUserProvider.swift */,
+				F3FDAE802820795B007A41AE /* EditUserCoordinator.swift */,
+				F3FDAE812820795B007A41AE /* EditUserPresenter.swift */,
+				F3FDAE822820795B007A41AE /* EditUserInteractor.swift */,
+			);
+			path = EditUser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35F8065281F3CF000371A0D /* ControlDePresenciaPFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35F8090281F3CF200371A0D /* Build configuration list for PBXNativeTarget "ControlDePresenciaPFM" */;
+			buildPhases = (
+				F35F8062281F3CF000371A0D /* Sources */,
+				F35F8063281F3CF000371A0D /* Frameworks */,
+				F35F8064281F3CF000371A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlDePresenciaPFM;
+			packageProductDependencies = (
+				F35F809D281F3DE300371A0D /* Lottie */,
+				F35F80B7281F3F8E00371A0D /* PKHUD */,
+				F35F811328202AFC00371A0D /* Kingfisher */,
+				F33FCC812825C34300489056 /* FirebaseAuth */,
+				F33FCC832825C34300489056 /* FirebaseAuthCombine-Community */,
+				F33FCC852825C34300489056 /* FirebaseDatabase */,
+				F33FCC872825C34400489056 /* FirebaseDatabaseSwift-Beta */,
+				F33FCC892825C34400489056 /* FirebaseDynamicLinks */,
+				F33FCC8B2825C34400489056 /* FirebaseFirestore */,
+				F33FCC8D2825C34400489056 /* FirebaseFirestoreCombine-Community */,
+				F33FCC8F2825C34400489056 /* FirebaseFirestoreSwift-Beta */,
+				F33FCC912825C34400489056 /* FirebaseFunctions */,
+				F33FCC932825C34400489056 /* FirebaseFunctionsCombine-Community */,
+				F33FCC952825C34400489056 /* FirebaseFunctionsSwift-Beta */,
+				F33FCC972825C34400489056 /* FirebaseRemoteConfig */,
+				F33FCC992825C34400489056 /* FirebaseRemoteConfigSwift-Beta */,
+				F33FCC9B2825C34400489056 /* FirebaseStorage */,
+				F33FCC9D2825C34400489056 /* FirebaseStorageCombine-Community */,
+				F33FCC9F2825C34400489056 /* FirebaseStorageSwift-Beta */,
+			);
+			productName = ControlDePresenciaIOS2;
+			productReference = F35F8066281F3CF000371A0D /* ControlDePresenciaPFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F35F807B281F3CF100371A0D /* ControlDePresenciaPFMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35F8093281F3CF200371A0D /* Build configuration list for PBXNativeTarget "ControlDePresenciaPFMTests" */;
+			buildPhases = (
+				F35F8078281F3CF100371A0D /* Sources */,
+				F35F8079281F3CF100371A0D /* Frameworks */,
+				F35F807A281F3CF100371A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35F807E281F3CF100371A0D /* PBXTargetDependency */,
+			);
+			name = ControlDePresenciaPFMTests;
+			productName = ControlDePresenciaIOS2Tests;
+			productReference = F35F807C281F3CF100371A0D /* ControlDePresenciaPFMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F35F8085281F3CF200371A0D /* ControlDePresenciaPFMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35F8096281F3CF200371A0D /* Build configuration list for PBXNativeTarget "ControlDePresenciaPFMUITests" */;
+			buildPhases = (
+				F35F8082281F3CF200371A0D /* Sources */,
+				F35F8083281F3CF200371A0D /* Frameworks */,
+				F35F8084281F3CF200371A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35F8088281F3CF200371A0D /* PBXTargetDependency */,
+			);
+			name = ControlDePresenciaPFMUITests;
+			productName = ControlDePresenciaIOS2UITests;
+			productReference = F35F8086281F3CF200371A0D /* ControlDePresenciaPFMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35F805E281F3CF000371A0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F35F8065281F3CF000371A0D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					F35F807B281F3CF100371A0D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = F35F8065281F3CF000371A0D;
+					};
+					F35F8085281F3CF200371A0D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = F35F8065281F3CF000371A0D;
+					};
+				};
+			};
+			buildConfigurationList = F35F8061281F3CF000371A0D /* Build configuration list for PBXProject "ControlDePresenciaIOS2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F35F805D281F3CF000371A0D;
+			packageReferences = (
+				F35F809C281F3DE300371A0D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				F35F80B6281F3F8E00371A0D /* XCRemoteSwiftPackageReference "PKHUD" */,
+				F35F811228202AFC00371A0D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F35F8067281F3CF000371A0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35F8065281F3CF000371A0D /* ControlDePresenciaPFM */,
+				F35F807B281F3CF100371A0D /* ControlDePresenciaPFMTests */,
+				F35F8085281F3CF200371A0D /* ControlDePresenciaPFMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35F8064281F3CF000371A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F5E2442822A14100D7D3B4 /* ListUsersViewController.xib in Resources */,
+				F35F80E6281FB24E00371A0D /* LoginViewController.xib in Resources */,
+				F35F8100281FC48700371A0D /* TimeRecordCell.xib in Resources */,
+				F35F8076281F3CF100371A0D /* LaunchScreen.storyboard in Resources */,
+				F3FDAE742820617E007A41AE /* EditTimeViewController.xib in Resources */,
+				F3F5E2532822A16300D7D3B4 /* ListTasksViewController.xib in Resources */,
+				F37693082823F65F00711DD2 /* AprobarCambioViewController.xib in Resources */,
+				F35F80D7281FA9FE00371A0D /* SplashScreenViewController.xib in Resources */,
+				F3F5E2632822F50D00D7D3B4 /* TaskViewCell.xib in Resources */,
+				468718E128284829000A5F90 /* GoogleService-Info.plist in Resources */,
+				F3769319282577AD00711DD2 /* WeatherViewController.xib in Resources */,
+				F35F80F5281FC44500371A0D /* ClockInViewController.xib in Resources */,
+				F35F8073281F3CF100371A0D /* Assets.xcassets in Resources */,
+				F35F8109282015E000371A0D /* RegisterViewController.xib in Resources */,
+				F3F5E25E2822A25D00D7D3B4 /* UserViewCell.xib in Resources */,
+				F3FDAE832820795B007A41AE /* EditUserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F807A281F3CF100371A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F8084281F3CF200371A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35F8062281F3CF000371A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35F80FA281FC44500371A0D /* ClockInPresenter.swift in Sources */,
+				F35F80FF281FC48700371A0D /* TimeRecordCell.swift in Sources */,
+				F376930A2823F65F00711DD2 /* AprobarCambioRouter.swift in Sources */,
+				F35F80C6281FA79900371A0D /* K.swift in Sources */,
+				F35F80DD281FA9FE00371A0D /* SplashScreenInteractor.swift in Sources */,
+				F35F80FB281FC44500371A0D /* ClockInInteractor.swift in Sources */,
+				F3F5E2652822F6B800D7D3B4 /* UpdateTimeRecord.swift in Sources */,
+				F35F810F282015E000371A0D /* RegisterInteractor.swift in Sources */,
+				F35F80EC281FB24E00371A0D /* LoginInteractor.swift in Sources */,
+				F3F5E2482822A14100D7D3B4 /* ListUsersCoordinator.swift in Sources */,
+				F35F80DC281FA9FE00371A0D /* SplashScreenPresenter.swift in Sources */,
+				F35F80C0281FA67B00371A0D /* NetworKError.swift in Sources */,
+				F3FDAE882820795B007A41AE /* EditUserPresenter.swift in Sources */,
+				F3F5E2582822A16300D7D3B4 /* ListTasksPresenter.swift in Sources */,
+				F3F5E2562822A16300D7D3B4 /* ListTasksProvider.swift in Sources */,
+				F37693242825949800711DD2 /* Styles.swift in Sources */,
+				F35F80EB281FB24E00371A0D /* LoginPresenter.swift in Sources */,
+				F376931A282577AD00711DD2 /* WeatherViewController.swift in Sources */,
+				F35F80F8281FC44500371A0D /* ClockInProvider.swift in Sources */,
+				F376930D2823F65F00711DD2 /* AprobarCambioPresenter.swift in Sources */,
+				F35F80E9281FB24E00371A0D /* LoginProvider.swift in Sources */,
+				F3F5E2452822A14100D7D3B4 /* ListUsersViewController.swift in Sources */,
+				F3FDAE772820617E007A41AE /* EditTimeProvider.swift in Sources */,
+				F3FDAE872820795B007A41AE /* EditUserCoordinator.swift in Sources */,
+				F376931B282577AD00711DD2 /* WeatherRouter.swift in Sources */,
+				F3FDAE852820795B007A41AE /* EditUserRouter.swift in Sources */,
+				F3F5E2572822A16300D7D3B4 /* ListTasksCoordinator.swift in Sources */,
+				F35F810C282015E000371A0D /* RegisterProvider.swift in Sources */,
+				F35F810B282015E000371A0D /* RegisterRouter.swift in Sources */,
+				F35F80BB281FA59100371A0D /* BaseVIPER.swift in Sources */,
+				F3F5E25D2822A25D00D7D3B4 /* UserViewCell.swift in Sources */,
+				F3FDAE892820795B007A41AE /* EditUserInteractor.swift in Sources */,
+				F35F809B281F3D5A00371A0D /* AppCoreCoordinator.swift in Sources */,
+				F3FDAE862820795B007A41AE /* EditUserProvider.swift in Sources */,
+				F3FDAE7A2820617E007A41AE /* EditTimeInteractor.swift in Sources */,
+				F376932128257C1B00711DD2 /* Welcome.swift in Sources */,
+				F376930E2823F65F00711DD2 /* AprobarCambioInteractor.swift in Sources */,
+				F3F5E2472822A14100D7D3B4 /* ListUsersProvider.swift in Sources */,
+				F35F80E8281FB24E00371A0D /* LoginRouter.swift in Sources */,
+				F3F5E2462822A14100D7D3B4 /* ListUsersRouter.swift in Sources */,
+				F35F80F9281FC44500371A0D /* ClockInCoordinator.swift in Sources */,
+				F376931028240BED00711DD2 /* CameraProvider.swift in Sources */,
+				F376931E282577AD00711DD2 /* WeatherPresenter.swift in Sources */,
+				F3F5E2542822A16300D7D3B4 /* ListTasksViewController.swift in Sources */,
+				F35F80D9281FA9FE00371A0D /* SplashScreenRouter.swift in Sources */,
+				F35F80DB281FA9FE00371A0D /* SplashScreenCoordinator.swift in Sources */,
+				F35F81112820291C00371A0D /* Extensions.swift in Sources */,
+				F3FDAE792820617E007A41AE /* EditTimePresenter.swift in Sources */,
+				F37693092823F65F00711DD2 /* AprobarCambioViewController.swift in Sources */,
+				F35F806A281F3CF000371A0D /* AppDelegate.swift in Sources */,
+				F35F80C8281FA7D400371A0D /* TimeUtils.swift in Sources */,
+				F35F80DA281FA9FE00371A0D /* SplashScreenProvider.swift in Sources */,
+				F35F80F7281FC44500371A0D /* ClockInRouter.swift in Sources */,
+				F376930B2823F65F00711DD2 /* AprobarCambioProvider.swift in Sources */,
+				F376931C282577AD00711DD2 /* WeatherProvider.swift in Sources */,
+				F3F5E24A2822A14100D7D3B4 /* ListUsersInteractor.swift in Sources */,
+				F35F80BE281FA64300371A0D /* NetworkService.swift in Sources */,
+				F35F80E7281FB24E00371A0D /* LoginViewController.swift in Sources */,
+				F35F810E282015E000371A0D /* RegisterPresenter.swift in Sources */,
+				F376930C2823F65F00711DD2 /* AprobarCambioCoordinator.swift in Sources */,
+				F3FDAE782820617E007A41AE /* EditTimeCoordinator.swift in Sources */,
+				F35F80CB281FA84100371A0D /* TimeRecord.swift in Sources */,
+				F3FDAE752820617E007A41AE /* EditTimeViewController.swift in Sources */,
+				F35F80F6281FC44500371A0D /* ClockInViewController.swift in Sources */,
+				F35F80D8281FA9FE00371A0D /* SplashScreenViewController.swift in Sources */,
+				F3FDAE842820795B007A41AE /* EditUserViewController.swift in Sources */,
+				F3F5E2492822A14100D7D3B4 /* ListUsersPresenter.swift in Sources */,
+				F35F80C4281FA75900371A0D /* Utils.swift in Sources */,
+				F35F811628202F0C00371A0D /* UserRecord.swift in Sources */,
+				F3F5E2552822A16300D7D3B4 /* ListTasksRouter.swift in Sources */,
+				F376931D282577AD00711DD2 /* WeatherCoordinator.swift in Sources */,
+				F35F810D282015E000371A0D /* RegisterCoordinator.swift in Sources */,
+				F35F80EA281FB24E00371A0D /* LoginCoordinator.swift in Sources */,
+				F3F5E2592822A16300D7D3B4 /* ListTasksInteractor.swift in Sources */,
+				F35F810A282015E000371A0D /* RegisterViewController.swift in Sources */,
+				F376931F282577AD00711DD2 /* WeatherInteractor.swift in Sources */,
+				F3FDAE762820617E007A41AE /* EditTimeRouter.swift in Sources */,
+				F3F5E2622822F50D00D7D3B4 /* TaskViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F8078281F3CF100371A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35F8081281F3CF100371A0D /* ControlDePresenciaIOS2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35F8082281F3CF200371A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35F808B281F3CF200371A0D /* ControlDePresenciaIOS2UITests.swift in Sources */,
+				F35F808D281F3CF200371A0D /* ControlDePresenciaIOS2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F35F807E281F3CF100371A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35F8065281F3CF000371A0D /* ControlDePresenciaPFM */;
+			targetProxy = F35F807D281F3CF100371A0D /* PBXContainerItemProxy */;
+		};
+		F35F8088281F3CF200371A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35F8065281F3CF000371A0D /* ControlDePresenciaPFM */;
+			targetProxy = F35F8087281F3CF200371A0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F35F8074281F3CF100371A0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35F8075281F3CF100371A0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F35F808E281F3CF200371A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F35F808F281F3CF200371A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F35F8091281F3CF200371A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV2SR6YNSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ControlDePresenciaIOS2/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se requiere el uso de la cámara para la foto de perfil";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "La aplicacion usa la ubicacion para mostrar datos del tiempo";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "La aplicacion solo usa la ubicacion aproximada para mostrar los datos del tiempo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidealvarado.ControlDePresenciaPFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F35F8092281F3CF200371A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV2SR6YNSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ControlDePresenciaIOS2/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se requiere el uso de la cámara para la foto de perfil";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "La aplicacion usa la ubicacion para mostrar datos del tiempo";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "La aplicacion solo usa la ubicacion aproximada para mostrar los datos del tiempo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidealvarado.ControlDePresenciaPFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F35F8094281F3CF200371A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV2SR6YNSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidealvarado.ControlDePresenciaIOS2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControlDePresenciaIOS2.app/ControlDePresenciaIOS2";
+			};
+			name = Debug;
+		};
+		F35F8095281F3CF200371A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV2SR6YNSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidealvarado.ControlDePresenciaIOS2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControlDePresenciaIOS2.app/ControlDePresenciaIOS2";
+			};
+			name = Release;
+		};
+		F35F8097281F3CF200371A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV2SR6YNSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidealvarado.ControlDePresenciaIOS2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ControlDePresenciaIOS2;
+			};
+			name = Debug;
+		};
+		F35F8098281F3CF200371A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GV2SR6YNSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidealvarado.ControlDePresenciaIOS2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ControlDePresenciaIOS2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35F8061281F3CF000371A0D /* Build configuration list for PBXProject "ControlDePresenciaIOS2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35F808E281F3CF200371A0D /* Debug */,
+				F35F808F281F3CF200371A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35F8090281F3CF200371A0D /* Build configuration list for PBXNativeTarget "ControlDePresenciaPFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35F8091281F3CF200371A0D /* Debug */,
+				F35F8092281F3CF200371A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35F8093281F3CF200371A0D /* Build configuration list for PBXNativeTarget "ControlDePresenciaPFMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35F8094281F3CF200371A0D /* Debug */,
+				F35F8095281F3CF200371A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35F8096281F3CF200371A0D /* Build configuration list for PBXNativeTarget "ControlDePresenciaPFMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35F8097281F3CF200371A0D /* Debug */,
+				F35F8098281F3CF200371A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		F35F809C281F3DE300371A0D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F35F80B6281F3F8E00371A0D /* XCRemoteSwiftPackageReference "PKHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pkluz/PKHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F35F811228202AFC00371A0D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F33FCC812825C34300489056 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F33FCC832825C34300489056 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		F33FCC852825C34300489056 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F33FCC872825C34400489056 /* FirebaseDatabaseSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseDatabaseSwift-Beta";
+		};
+		F33FCC892825C34400489056 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		F33FCC8B2825C34400489056 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F33FCC8D2825C34400489056 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		F33FCC8F2825C34400489056 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		F33FCC912825C34400489056 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		F33FCC932825C34400489056 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		F33FCC952825C34400489056 /* FirebaseFunctionsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsSwift-Beta";
+		};
+		F33FCC972825C34400489056 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		F33FCC992825C34400489056 /* FirebaseRemoteConfigSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseRemoteConfigSwift-Beta";
+		};
+		F33FCC9B2825C34400489056 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F33FCC9D2825C34400489056 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		F33FCC9F2825C34400489056 /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F33FCC802825C34300489056 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+		F35F809D281F3DE300371A0D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F35F809C281F3DE300371A0D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		F35F80B7281F3F8E00371A0D /* PKHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F35F80B6281F3F8E00371A0D /* XCRemoteSwiftPackageReference "PKHUD" */;
+			productName = PKHUD;
+		};
+		F35F811328202AFC00371A0D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F35F811228202AFC00371A0D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F35F805E281F3CF000371A0D /* Project object */;
+}

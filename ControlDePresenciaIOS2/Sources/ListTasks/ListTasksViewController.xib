@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListTasksViewController">
+            <connections>
+                <outlet property="backButton" destination="LBG-0A-w5Y" id="0n2-7B-rLP"/>
+                <outlet property="logoutButton" destination="eUn-xy-ll7" id="LmX-k2-V5q"/>
+                <outlet property="navigationBar" destination="Hb2-O6-bX2" id="5W7-5u-dMc"/>
+                <outlet property="tableView" destination="8lH-AA-cob" id="cQN-aN-aax"/>
+                <outlet property="view" destination="iN0-l3-epB" id="0KK-4V-vEI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hb2-O6-bX2">
+                    <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="vw5-1T-R4W"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="Lista de tareas" id="eGt-79-4rH">
+                            <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.backward" catalog="system" id="LBG-0A-w5Y">
+                                <connections>
+                                    <action selector="goBackAction:" destination="-1" id="urW-Rg-rSD"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem key="rightBarButtonItem" title="Item" image="power" catalog="system" id="eUn-xy-ll7">
+                                <connections>
+                                    <action selector="logoutAction:" destination="-1" id="shv-5f-eqd"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="8lH-AA-cob">
+                    <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="8lH-AA-cob" secondAttribute="trailing" id="6Hc-qo-4xt"/>
+                <constraint firstItem="Hb2-O6-bX2" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="BOv-WI-M7X"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="8lH-AA-cob" secondAttribute="bottom" id="LM9-TX-AGQ"/>
+                <constraint firstItem="8lH-AA-cob" firstAttribute="top" secondItem="Hb2-O6-bX2" secondAttribute="bottom" id="Qzv-kV-4LX"/>
+                <constraint firstItem="8lH-AA-cob" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="bta-Vh-oRd"/>
+                <constraint firstAttribute="trailing" secondItem="Hb2-O6-bX2" secondAttribute="trailing" id="lKv-jm-kKR"/>
+                <constraint firstItem="Hb2-O6-bX2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="pSB-Ls-HYU"/>
+            </constraints>
+            <point key="canvasLocation" x="31.884057971014496" y="132.58928571428572"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.backward" catalog="system" width="96" height="128"/>
+        <image name="power" catalog="system" width="128" height="124"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashScreenViewController">
+            <connections>
+                <outlet property="imageAnimation" destination="3k8-1i-gFi" id="uuG-5P-Ey3"/>
+                <outlet property="loginButton" destination="PMr-2n-hL4" id="Vhe-pa-zIs"/>
+                <outlet property="registerButton" destination="rYr-mm-Ui6" id="67C-Ux-3a0"/>
+                <outlet property="splashMessage" destination="3Xj-B8-3XR" id="lag-At-FIb"/>
+                <outlet property="view" destination="iN0-l3-epB" id="0KK-4V-vEI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3k8-1i-gFi" customClass="AnimationView" customModule="Lottie">
+                    <rect key="frame" x="67" y="134" width="241" height="399"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="98863-busy-working-woman"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xj-B8-3XR">
+                    <rect key="frame" x="67" y="556" width="241" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMr-2n-hL4">
+                    <rect key="frame" x="67" y="585" width="241" height="28"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="tinted" title="Login"/>
+                    <connections>
+                        <action selector="loginAction:" destination="-1" eventType="touchUpInside" id="cfR-vK-BBD"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYr-mm-Ui6">
+                    <rect key="frame" x="67" y="621" width="241" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="tinted" title="Register"/>
+                    <connections>
+                        <action selector="registerAction:" destination="-1" eventType="touchUpInside" id="yoB-ig-5jp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="3k8-1i-gFi" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="134" id="C6Y-sb-MnV"/>
+                <constraint firstItem="3Xj-B8-3XR" firstAttribute="top" secondItem="3k8-1i-gFi" secondAttribute="bottom" constant="23" id="Epx-CW-LF6"/>
+                <constraint firstItem="3Xj-B8-3XR" firstAttribute="trailing" secondItem="3k8-1i-gFi" secondAttribute="trailing" id="KtZ-EK-qWt"/>
+                <constraint firstItem="PMr-2n-hL4" firstAttribute="leading" secondItem="3Xj-B8-3XR" secondAttribute="leading" id="LeU-32-YB5"/>
+                <constraint firstItem="rYr-mm-Ui6" firstAttribute="top" secondItem="PMr-2n-hL4" secondAttribute="bottom" constant="8" symbolic="YES" id="PBS-ka-frK"/>
+                <constraint firstItem="rYr-mm-Ui6" firstAttribute="trailing" secondItem="PMr-2n-hL4" secondAttribute="trailing" id="Rg0-sP-BF2"/>
+                <constraint firstItem="PMr-2n-hL4" firstAttribute="trailing" secondItem="3Xj-B8-3XR" secondAttribute="trailing" id="YlD-qA-jIx"/>
+                <constraint firstItem="3Xj-B8-3XR" firstAttribute="leading" secondItem="3k8-1i-gFi" secondAttribute="leading" id="eRz-Pj-htz"/>
+                <constraint firstItem="3k8-1i-gFi" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="lfH-K4-95e"/>
+                <constraint firstItem="3k8-1i-gFi" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="67" id="lgo-dI-QVs"/>
+                <constraint firstItem="rYr-mm-Ui6" firstAttribute="leading" secondItem="PMr-2n-hL4" secondAttribute="leading" id="q8v-kH-u5a"/>
+                <constraint firstItem="PMr-2n-hL4" firstAttribute="top" secondItem="3Xj-B8-3XR" secondAttribute="bottom" constant="8" symbolic="YES" id="s6S-rF-bR7"/>
+                <constraint firstItem="3k8-1i-gFi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tgq-1N-4TI"/>
+            </constraints>
+            <point key="canvasLocation" x="31.199999999999999" y="131.78410794602701"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
