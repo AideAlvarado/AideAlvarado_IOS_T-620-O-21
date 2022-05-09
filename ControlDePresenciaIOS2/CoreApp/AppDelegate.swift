@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         // Inicializamos el entorno de Firebase
         FirebaseApp.configure()
+        Database.database().isPersistenceEnabled = true
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         if let windowUnw = window {

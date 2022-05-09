@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		468718E128284829000A5F90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 468718E028284829000A5F90 /* GoogleService-Info.plist */; };
+		46BEA4E82829B46100DA186D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46BEA4E72829B46000DA186D /* GoogleService-Info.plist */; };
 		F33FCC822825C34300489056 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC812825C34300489056 /* FirebaseAuth */; };
 		F33FCC842825C34300489056 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC832825C34300489056 /* FirebaseAuthCombine-Community */; };
 		F33FCC862825C34400489056 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F33FCC852825C34300489056 /* FirebaseDatabase */; };
@@ -143,7 +143,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		468718E028284829000A5F90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		46BEA4E72829B46000DA186D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F35F8066281F3CF000371A0D /* ControlDePresenciaPFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlDePresenciaPFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35F8069281F3CF000371A0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F35F8072281F3CF100371A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -313,7 +313,7 @@
 		F35F8068281F3CF000371A0D /* ControlDePresenciaIOS2 */ = {
 			isa = PBXGroup;
 			children = (
-				468718E028284829000A5F90 /* GoogleService-Info.plist */,
+				46BEA4E72829B46000DA186D /* GoogleService-Info.plist */,
 				F37693222825946800711DD2 /* Tema */,
 				F35F80C1281FA6D200371A0D /* Utils+Helpers */,
 				F35F80B9281FA54E00371A0D /* BaseViper */,
@@ -737,7 +737,7 @@
 				F37693082823F65F00711DD2 /* AprobarCambioViewController.xib in Resources */,
 				F35F80D7281FA9FE00371A0D /* SplashScreenViewController.xib in Resources */,
 				F3F5E2632822F50D00D7D3B4 /* TaskViewCell.xib in Resources */,
-				468718E128284829000A5F90 /* GoogleService-Info.plist in Resources */,
+				46BEA4E82829B46100DA186D /* GoogleService-Info.plist in Resources */,
 				F3769319282577AD00711DD2 /* WeatherViewController.xib in Resources */,
 				F35F80F5281FC44500371A0D /* ClockInViewController.xib in Resources */,
 				F35F8073281F3CF100371A0D /* Assets.xcassets in Resources */,

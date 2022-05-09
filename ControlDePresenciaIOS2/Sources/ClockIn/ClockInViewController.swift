@@ -136,13 +136,14 @@ class ClockInViewController: BaseView<ClockInPresenterInputProtocol> {
             locationManager.desiredAccuracy = kCLLocationAccuracyReduced
             locationManager.startUpdatingLocation()
         }
-        // Cargamos los datos del usuario desde FirebaseRealtime
-        leerDatosUsuario()
+
         self.tableView.delegate = self
         configurarTableView()
         leerPreferenciasLocales()
         self.presenter?.loadDataFromInteractor()
         configurarUI()
+        // Cargamos los datos del usuario desde FirebaseRealtime
+        leerDatosUsuario()
         loadProfilePicture()
        
         self.presenter?.setUpdateClock()
